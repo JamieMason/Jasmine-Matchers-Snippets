@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:string}).toEndWith(${2:expected});
+]]></content>
+  <tabTrigger>tew</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

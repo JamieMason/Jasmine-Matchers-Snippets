@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveArrayOfObjects(${2:memberName});
+]]></content>
+  <tabTrigger>thaoo</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

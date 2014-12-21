@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:instance}).toBe(${2:instance});
+]]></content>
+  <tabTrigger>tb</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

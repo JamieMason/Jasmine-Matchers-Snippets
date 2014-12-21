@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:array}).toBeArrayOfStrings();
+]]></content>
+  <tabTrigger>tbaos</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

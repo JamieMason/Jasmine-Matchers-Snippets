@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+  describe('when ${1}', function() {
+
+  });
+]]></content>
+  <tabTrigger>des</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

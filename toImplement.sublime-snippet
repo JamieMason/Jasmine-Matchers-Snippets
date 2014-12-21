@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toImplement(${2:api});
+]]></content>
+  <tabTrigger>ti</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:array}).toBeArrayOfBooleans();
+]]></content>
+  <tabTrigger>tbaob</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

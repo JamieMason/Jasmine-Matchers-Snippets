@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:mixed}).toEqual(${2:mixed});
+]]></content>
+  <tabTrigger>te</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

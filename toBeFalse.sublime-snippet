@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:boolean}).toBeFalse();
+]]></content>
+  <tabTrigger>tbf</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

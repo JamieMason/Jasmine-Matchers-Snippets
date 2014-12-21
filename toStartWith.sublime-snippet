@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:string}).toStartWith(${2:expected});
+]]></content>
+  <tabTrigger>tsw</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

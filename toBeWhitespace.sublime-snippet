@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:string}).toBeWhitespace();
+]]></content>
+  <tabTrigger>tbw</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

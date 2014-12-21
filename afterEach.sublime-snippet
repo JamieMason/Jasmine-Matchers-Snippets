@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+  afterEach(function() {
+
+  });
+]]></content>
+  <tabTrigger>af</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

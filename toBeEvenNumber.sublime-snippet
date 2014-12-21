@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:number}).toBeEvenNumber();
+]]></content>
+  <tabTrigger>tben</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

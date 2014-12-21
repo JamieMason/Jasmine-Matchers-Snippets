@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveArrayOfBooleans(${2:memberName});
+]]></content>
+  <tabTrigger>thaob</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

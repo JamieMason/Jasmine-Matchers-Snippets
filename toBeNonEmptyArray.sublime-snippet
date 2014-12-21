@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:array}).toBeNonEmptyArray();
+]]></content>
+  <tabTrigger>tbnea</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:array}).toBeEmptyArray();
+]]></content>
+  <tabTrigger>tbea</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

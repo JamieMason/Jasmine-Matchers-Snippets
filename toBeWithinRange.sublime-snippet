@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:number}).toBeWithinRange(${2:floor}, ${3:ceiling});
+]]></content>
+  <tabTrigger>tbwr</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
