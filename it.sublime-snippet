@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-  it('should ${1}', function() {
+it('should ${1}', function() {
 
-  });
+});
 ]]></content>
   <tabTrigger>it</tabTrigger>
   <scope>source.js</scope>
