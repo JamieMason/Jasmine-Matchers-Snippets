@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:method}).not.toHaveBeenCalledWith(${2:value});
+]]></content>
+  <tabTrigger>nthbcw</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

@@ -7,250 +7,695 @@ Included are all snippets listed below. $1, $2, etc. show the position where the
 These snippets are intended to be used alongside [Jasmine Matchers](https://github.com/JamieMason/Jasmine-Matchers) to make development a little easier.
 
 
-## toBe
-
-`tb` -> `expect(${1:instance}).toBe(${2:instance});`
-
-## toBeArray
-
-`tba` -> `expect(${1:array}).toBeArray();`
-
-## toBeAfter
-
-`tba` -> `expect(${1:date}).toBeAfter(${2:date});`
-
-## toBeArrayOfBooleans
-
-`tbaob` -> `expect(${1:array}).toBeArrayOfBooleans();`
-
-## toBeArrayOfNumbers
-
-`tbaon` -> `expect(${1:array}).toBeArrayOfNumbers();`
-
-## toBeArrayOfObjects
-
-`tbaoo` -> `expect(${1:array}).toBeArrayOfObjects();`
-
-## toBeArrayOfSize
-
-`tbaos` -> `expect(${1:array}).toBeArrayOfSize(${2:size});`
-
-## toBeArrayOfStrings
-
-`tbaos` -> `expect(${1:array}).toBeArrayOfStrings();`
-
-## toBeBoolean
-
-`tbb` -> `expect(${1:boolean}).toBeBoolean();`
-
-## toBeBefore
-
-`tbb` -> `expect(${1:date}).toBeBefore(${2:date});`
-
-## toBeCalculable
-
-`tbc` -> `expect(${1:numberOrString}).toBeCalculable();`
-
-## toBeDate
-
-`tbd` -> `expect(${1:date}).toBeDate();`
-
-## toBeDefined
-
-`tbd` -> `expect(${1:mixed}).toBeDefined();`
-
-## toBeDocument
-
-`tbd` -> `expect(${1:object}).toBeDocument();`
-
-## toBeEmptyArray
-
-`tbea` -> `expect(${1:array}).toBeEmptyArray();`
-
-## toBeEvenNumber
-
-`tben` -> `expect(${1:number}).toBeEvenNumber();`
-
-## toBeEmptyString
-
-`tbes` -> `expect(${1:string}).toBeEmptyString();`
-
-## toBeFalse
-
-`tbf` -> `expect(${1:boolean}).toBeFalse();`
-
-## toBeFalsy
-
-`tbf` -> `expect(${1:mixed}).toBeFalsy();`
-
-## toBeFunction
-
-`tbf` -> `expect(${1:object}).toBeFunction();`
-
-## toBeGreaterThan
-
-`tbgt` -> `expect(${1:number}).toBeGreaterThan(${2:number});`
-
-## toBeHtmlCommentNode
-
-`tbhcn` -> `expect(${1:element}).toBeHtmlCommentNode();`
-
-## toBeHtmlNode
-
-`tbhn` -> `expect(${1:element}).toBeHtmlNode();`
-
-## toBeHtmlString
-
-`tbhs` -> `expect(${1:string}).toBeHtmlString();`
-
-## toBeHtmlTextNode
-
-`tbhtn` -> `expect(${1:element}).toBeHtmlTextNode();`
-
-## toBeIso8601
-
-`tbi8601` -> `expect(${1:string}).toBeIso8601();`
-
-## toBeJsonString
-
-`tbjs` -> `expect(${1:string}).toBeJsonString();`
-
-## toBeLessThan
-
-`tblt` -> `expect(${1:number}).toBeLessThan(${2:number});`
-
-## toBeLongerThan
-
-`tblt` -> `expect(${1:string}).toBeLongerThan(${2:other});`
-
-## toBeNull
-
-`tbn` -> `expect(${1:mixed}).toBeNull();`
-
-## toBeNumber
-
-`tbn` -> `expect(${1:number}).toBeNumber();`
-
-## toBeNonEmptyArray
-
-`tbnea` -> `expect(${1:array}).toBeNonEmptyArray();`
-
-## toBeNonEmptyString
-
-`tbnes` -> `expect(${1:string}).toBeNonEmptyString();`
-
-## toBeObject
-
-`tbo` -> `expect(${1:object}).toBeObject();`
-
-## toBeOddNumber
-
-`tbon` -> `expect(${1:number}).toBeOddNumber();`
-
-## toBeString
-
-`tbs` -> `expect(${1:string}).toBeString();`
-
-## toBeSameLengthAs
-
-`tbsla` -> `expect(${1:string}).toBeSameLengthAs(${2:other});`
-
-## toBeShorterThan
-
-`tbst` -> `expect(${1:string}).toBeShorterThan(${2:other});`
-
-## toBeTrue
-
-`tbt` -> `expect(${1:boolean}).toBeTrue();`
-
-## toBeTruthy
-
-`tbt` -> `expect(${1:mixed}).toBeTruthy();`
-
-## toBeUndefined
-
-`tbu` -> `expect(${1:mixed}).toBeUndefined();`
-
-## toBeWindow
-
-`tbw` -> `expect(${1:object}).toBeWindow();`
-
-## toBeWhitespace
-
-`tbw` -> `expect(${1:string}).toBeWhitespace();`
-
-## toBeWholeNumber
-
-`tbwn` -> `expect(${1:number}).toBeWholeNumber();`
-
-## toBeWithinRange
-
-`tbwr` -> `expect(${1:number}).toBeWithinRange(${2:floor}, ${3:ceiling});`
-
-## toContain
-
-`tc` -> `expect(${1:array or string}).toContain(${2:member or substring});`
-
-## toEqual
-
-`te` -> `expect(${1:mixed}).toEqual(${2:mixed});`
-
-## toEndWith
-
-`tew` -> `expect(${1:string}).toEndWith(${2:expected});`
-
-## toHaveArray
-
-`tha` -> `expect(${1:object}).toHaveArray(${2:memberName});`
-
-## toHaveArrayOfBooleans
-
-`thaob` -> `expect(${1:object}).toHaveArrayOfBooleans(${2:memberName});`
-
-## toHaveArrayOfNumbers
-
-`thaon` -> `expect(${1:object}).toHaveArrayOfNumbers(${2:memberName});`
-
-## toHaveArrayOfObjects
-
-`thaoo` -> `expect(${1:object}).toHaveArrayOfObjects(${2:memberName});`
-
-## toHaveArrayOfSize
-
-`thaos` -> `expect(${1:object}).toHaveArrayOfSize(memberName, ${2:size});`
-
-## toHaveArrayOfStrings
-
-`thaos` -> `expect(${1:object}).toHaveArrayOfStrings(${2:memberName});`
-
-## toHaveEmptyArray
-
-`thea` -> `expect(${1:object}).toHaveEmptyArray(${2:memberName});`
-
-## toHaveNonEmptyArray
-
-`thnea` -> `expect(${1:object}).toHaveNonEmptyArray(${2:memberName});`
-
-## toImplement
-
-`ti` -> `expect(${1:object}).toImplement(${2:api});`
-
-## toMatch
-
-`tm` -> `expect(${1:mixed}).toMatch(${2:pattern});`
-
-## toStartWith
-
-`tsw` -> `expect(${1:string}).toStartWith(${2:expected});`
-
-## toThrow
-
-`tt` -> `expect(${1:fn}).toThrow(${2:error});`
-
-## toThrowAnyError
-
-`ttae` -> `expect(${1:fn}).toThrowAnyError();`
-
-## toThrowErrorOfType
-
-`tteot` -> `expect(${1:fn}).toThrowErrorOfType(${2:string});`
+<kbd>a</kbd><kbd>f</kbd>
+```javascript
+afterEach(function() {
+
+});
+```
+
+<kbd>b</kbd><kbd>e</kbd>
+```javascript
+beforeEach(function() {
+
+});
+```
+
+<kbd>d</kbd><kbd>e</kbd><kbd>s</kbd>
+```javascript
+describe('when x', function() {
+
+});
+```
+
+<kbd>i</kbd><kbd>t</kbd>
+```javascript
+it('should x', function() {
+
+});
+```
+
+<kbd>j</kbd><kbd>a</kbd>
+```javascript
+jasmine.createSpy('name');
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd>
+```javascript
+expect(instance).toBe(instance);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>a</kbd>
+```javascript
+expect(date).toBeAfter(date);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>a</kbd>
+```javascript
+expect(array).toBeArray();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>a</kbd><kbd>o</kbd><kbd>b</kbd>
+```javascript
+expect(array).toBeArrayOfBooleans();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>a</kbd><kbd>o</kbd><kbd>n</kbd>
+```javascript
+expect(array).toBeArrayOfNumbers();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>a</kbd><kbd>o</kbd><kbd>o</kbd>
+```javascript
+expect(array).toBeArrayOfObjects();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>a</kbd><kbd>o</kbd><kbd>s</kbd>
+```javascript
+expect(array).toBeArrayOfSize(size);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>a</kbd><kbd>o</kbd><kbd>s</kbd>
+```javascript
+expect(array).toBeArrayOfStrings();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>b</kbd>
+```javascript
+expect(date).toBeBefore(date);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>b</kbd>
+```javascript
+expect(boolean).toBeBoolean();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>c</kbd>
+```javascript
+expect(numberOrString).toBeCalculable();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>d</kbd>
+```javascript
+expect(date).toBeDate();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>d</kbd>
+```javascript
+expect(mixed).toBeDefined();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>d</kbd>
+```javascript
+expect(object).toBeDocument();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>e</kbd><kbd>a</kbd>
+```javascript
+expect(array).toBeEmptyArray();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>e</kbd><kbd>s</kbd>
+```javascript
+expect(string).toBeEmptyString();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>e</kbd><kbd>n</kbd>
+```javascript
+expect(number).toBeEvenNumber();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>f</kbd>
+```javascript
+expect(boolean).toBeFalse();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>f</kbd>
+```javascript
+expect(mixed).toBeFalsy();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>f</kbd>
+```javascript
+expect(object).toBeFunction();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>g</kbd><kbd>t</kbd>
+```javascript
+expect(number).toBeGreaterThan(number);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>h</kbd><kbd>c</kbd><kbd>n</kbd>
+```javascript
+expect(element).toBeHtmlCommentNode();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>h</kbd><kbd>n</kbd>
+```javascript
+expect(element).toBeHtmlNode();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>h</kbd><kbd>s</kbd>
+```javascript
+expect(string).toBeHtmlString();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>h</kbd><kbd>t</kbd><kbd>n</kbd>
+```javascript
+expect(element).toBeHtmlTextNode();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>i</kbd><kbd>8</kbd><kbd>6</kbd><kbd>0</kbd><kbd>1</kbd>
+```javascript
+expect(string).toBeIso8601();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>j</kbd><kbd>s</kbd>
+```javascript
+expect(string).toBeJsonString();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>l</kbd><kbd>t</kbd>
+```javascript
+expect(number).toBeLessThan(number);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>l</kbd><kbd>t</kbd>
+```javascript
+expect(string).toBeLongerThan(other);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>n</kbd><kbd>e</kbd><kbd>a</kbd>
+```javascript
+expect(array).toBeNonEmptyArray();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>n</kbd><kbd>e</kbd><kbd>s</kbd>
+```javascript
+expect(string).toBeNonEmptyString();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>n</kbd>
+```javascript
+expect(mixed).toBeNull();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>n</kbd>
+```javascript
+expect(number).toBeNumber();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>o</kbd>
+```javascript
+expect(object).toBeObject();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>o</kbd><kbd>n</kbd>
+```javascript
+expect(number).toBeOddNumber();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>s</kbd><kbd>l</kbd><kbd>a</kbd>
+```javascript
+expect(string).toBeSameLengthAs(other);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>s</kbd><kbd>t</kbd>
+```javascript
+expect(string).toBeShorterThan(other);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>s</kbd>
+```javascript
+expect(string).toBeString();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>t</kbd>
+```javascript
+expect(boolean).toBeTrue();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>t</kbd>
+```javascript
+expect(mixed).toBeTruthy();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>u</kbd>
+```javascript
+expect(mixed).toBeUndefined();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>w</kbd>
+```javascript
+expect(string).toBeWhitespace();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>w</kbd><kbd>n</kbd>
+```javascript
+expect(number).toBeWholeNumber();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>w</kbd>
+```javascript
+expect(object).toBeWindow();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>b</kbd><kbd>w</kbd><kbd>r</kbd>
+```javascript
+expect(number).toBeWithinRange(floor, ceiling);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>c</kbd>
+```javascript
+expect(arrayor string}).toContain(memberor substring});
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>e</kbd><kbd>w</kbd>
+```javascript
+expect(string).toEndWith(expected);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>e</kbd>
+```javascript
+expect(mixed).toEqual(mixed);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>h</kbd><kbd>a</kbd>
+```javascript
+expect(object).toHaveArray(memberName);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>h</kbd><kbd>a</kbd><kbd>o</kbd><kbd>b</kbd>
+```javascript
+expect(object).toHaveArrayOfBooleans(memberName);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>h</kbd><kbd>a</kbd><kbd>o</kbd><kbd>n</kbd>
+```javascript
+expect(object).toHaveArrayOfNumbers(memberName);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>h</kbd><kbd>a</kbd><kbd>o</kbd><kbd>o</kbd>
+```javascript
+expect(object).toHaveArrayOfObjects(memberName);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>h</kbd><kbd>a</kbd><kbd>o</kbd><kbd>s</kbd>
+```javascript
+expect(object).toHaveArrayOfSize(memberName, size);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>h</kbd><kbd>a</kbd><kbd>o</kbd><kbd>s</kbd>
+```javascript
+expect(object).toHaveArrayOfStrings(memberName);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>h</kbd><kbd>b</kbd><kbd>c</kbd>
+```javascript
+expect(method).not.toHaveBeenCalled();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>h</kbd><kbd>b</kbd><kbd>c</kbd><kbd>w</kbd>
+```javascript
+expect(method).not.toHaveBeenCalledWith(value);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>h</kbd><kbd>e</kbd><kbd>a</kbd>
+```javascript
+expect(object).toHaveEmptyArray(memberName);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>h</kbd><kbd>n</kbd><kbd>e</kbd><kbd>a</kbd>
+```javascript
+expect(object).toHaveNonEmptyArray(memberName);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>i</kbd>
+```javascript
+expect(object).toImplement(api);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>m</kbd>
+```javascript
+expect(mixed).toMatch(pattern);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>s</kbd><kbd>w</kbd>
+```javascript
+expect(string).toStartWith(expected);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>t</kbd>
+```javascript
+expect(fn).toThrow(error);
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>t</kbd><kbd>a</kbd><kbd>e</kbd>
+```javascript
+expect(fn).toThrowAnyError();
+```
+
+<kbd>n</kbd><kbd>t</kbd><kbd>t</kbd><kbd>e</kbd><kbd>o</kbd><kbd>t</kbd>
+```javascript
+expect(fn).toThrowErrorOfType(string);
+```
+
+<kbd>a</kbd><kbd>c</kbd><kbd>f</kbd>
+```javascript
+spyOn(object, 'methodName').and.callFake();
+```
+
+<kbd>a</kbd><kbd>c</kbd><kbd>t</kbd>
+```javascript
+spyOn(object, 'methodName').and.callThrough();
+```
+
+<kbd>a</kbd><kbd>r</kbd><kbd>v</kbd>
+```javascript
+spyOn(object, 'methodName').and.returnValue(value);
+```
+
+<kbd>a</kbd><kbd>t</kbd><kbd>e</kbd>
+```javascript
+spyOn(object, 'methodName').and.throwError('message');
+```
+
+<kbd>t</kbd><kbd>b</kbd>
+```javascript
+expect(instance).toBe(instance);
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>a</kbd>
+```javascript
+expect(date).toBeAfter(date);
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>a</kbd>
+```javascript
+expect(array).toBeArray();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>a</kbd><kbd>o</kbd><kbd>b</kbd>
+```javascript
+expect(array).toBeArrayOfBooleans();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>a</kbd><kbd>o</kbd><kbd>n</kbd>
+```javascript
+expect(array).toBeArrayOfNumbers();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>a</kbd><kbd>o</kbd><kbd>o</kbd>
+```javascript
+expect(array).toBeArrayOfObjects();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>a</kbd><kbd>o</kbd><kbd>s</kbd>
+```javascript
+expect(array).toBeArrayOfSize(size);
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>a</kbd><kbd>o</kbd><kbd>s</kbd>
+```javascript
+expect(array).toBeArrayOfStrings();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>b</kbd>
+```javascript
+expect(date).toBeBefore(date);
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>b</kbd>
+```javascript
+expect(boolean).toBeBoolean();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>c</kbd>
+```javascript
+expect(numberOrString).toBeCalculable();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>d</kbd>
+```javascript
+expect(date).toBeDate();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>d</kbd>
+```javascript
+expect(mixed).toBeDefined();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>d</kbd>
+```javascript
+expect(object).toBeDocument();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>e</kbd><kbd>a</kbd>
+```javascript
+expect(array).toBeEmptyArray();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>e</kbd><kbd>s</kbd>
+```javascript
+expect(string).toBeEmptyString();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>e</kbd><kbd>n</kbd>
+```javascript
+expect(number).toBeEvenNumber();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>f</kbd>
+```javascript
+expect(boolean).toBeFalse();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>f</kbd>
+```javascript
+expect(mixed).toBeFalsy();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>f</kbd>
+```javascript
+expect(object).toBeFunction();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>g</kbd><kbd>t</kbd>
+```javascript
+expect(number).toBeGreaterThan(number);
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>h</kbd><kbd>c</kbd><kbd>n</kbd>
+```javascript
+expect(element).toBeHtmlCommentNode();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>h</kbd><kbd>n</kbd>
+```javascript
+expect(element).toBeHtmlNode();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>h</kbd><kbd>s</kbd>
+```javascript
+expect(string).toBeHtmlString();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>h</kbd><kbd>t</kbd><kbd>n</kbd>
+```javascript
+expect(element).toBeHtmlTextNode();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>i</kbd><kbd>8</kbd><kbd>6</kbd><kbd>0</kbd><kbd>1</kbd>
+```javascript
+expect(string).toBeIso8601();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>j</kbd><kbd>s</kbd>
+```javascript
+expect(string).toBeJsonString();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>l</kbd><kbd>t</kbd>
+```javascript
+expect(number).toBeLessThan(number);
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>l</kbd><kbd>t</kbd>
+```javascript
+expect(string).toBeLongerThan(other);
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>n</kbd><kbd>e</kbd><kbd>a</kbd>
+```javascript
+expect(array).toBeNonEmptyArray();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>n</kbd><kbd>e</kbd><kbd>s</kbd>
+```javascript
+expect(string).toBeNonEmptyString();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>n</kbd>
+```javascript
+expect(mixed).toBeNull();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>n</kbd>
+```javascript
+expect(number).toBeNumber();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>o</kbd>
+```javascript
+expect(object).toBeObject();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>o</kbd><kbd>n</kbd>
+```javascript
+expect(number).toBeOddNumber();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>s</kbd><kbd>l</kbd><kbd>a</kbd>
+```javascript
+expect(string).toBeSameLengthAs(other);
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>s</kbd><kbd>t</kbd>
+```javascript
+expect(string).toBeShorterThan(other);
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>s</kbd>
+```javascript
+expect(string).toBeString();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>t</kbd>
+```javascript
+expect(boolean).toBeTrue();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>t</kbd>
+```javascript
+expect(mixed).toBeTruthy();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>u</kbd>
+```javascript
+expect(mixed).toBeUndefined();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>w</kbd>
+```javascript
+expect(string).toBeWhitespace();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>w</kbd><kbd>n</kbd>
+```javascript
+expect(number).toBeWholeNumber();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>w</kbd>
+```javascript
+expect(object).toBeWindow();
+```
+
+<kbd>t</kbd><kbd>b</kbd><kbd>w</kbd><kbd>r</kbd>
+```javascript
+expect(number).toBeWithinRange(floor, ceiling);
+```
+
+<kbd>t</kbd><kbd>c</kbd>
+```javascript
+expect(arrayor string}).toContain(memberor substring});
+```
+
+<kbd>t</kbd><kbd>e</kbd><kbd>w</kbd>
+```javascript
+expect(string).toEndWith(expected);
+```
+
+<kbd>t</kbd><kbd>e</kbd>
+```javascript
+expect(mixed).toEqual(mixed);
+```
+
+<kbd>t</kbd><kbd>h</kbd><kbd>a</kbd>
+```javascript
+expect(object).toHaveArray(memberName);
+```
+
+<kbd>t</kbd><kbd>h</kbd><kbd>a</kbd><kbd>o</kbd><kbd>b</kbd>
+```javascript
+expect(object).toHaveArrayOfBooleans(memberName);
+```
+
+<kbd>t</kbd><kbd>h</kbd><kbd>a</kbd><kbd>o</kbd><kbd>n</kbd>
+```javascript
+expect(object).toHaveArrayOfNumbers(memberName);
+```
+
+<kbd>t</kbd><kbd>h</kbd><kbd>a</kbd><kbd>o</kbd><kbd>o</kbd>
+```javascript
+expect(object).toHaveArrayOfObjects(memberName);
+```
+
+<kbd>t</kbd><kbd>h</kbd><kbd>a</kbd><kbd>o</kbd><kbd>s</kbd>
+```javascript
+expect(object).toHaveArrayOfSize(memberName, size);
+```
+
+<kbd>t</kbd><kbd>h</kbd><kbd>a</kbd><kbd>o</kbd><kbd>s</kbd>
+```javascript
+expect(object).toHaveArrayOfStrings(memberName);
+```
+
+<kbd>t</kbd><kbd>h</kbd><kbd>b</kbd><kbd>c</kbd>
+```javascript
+expect(method).toHaveBeenCalled();
+```
+
+<kbd>t</kbd><kbd>h</kbd><kbd>b</kbd><kbd>c</kbd><kbd>w</kbd>
+```javascript
+expect(method).toHaveBeenCalledWith(value);
+```
+
+<kbd>t</kbd><kbd>h</kbd><kbd>e</kbd><kbd>a</kbd>
+```javascript
+expect(object).toHaveEmptyArray(memberName);
+```
+
+<kbd>t</kbd><kbd>h</kbd><kbd>n</kbd><kbd>e</kbd><kbd>a</kbd>
+```javascript
+expect(object).toHaveNonEmptyArray(memberName);
+```
+
+<kbd>t</kbd><kbd>i</kbd>
+```javascript
+expect(object).toImplement(api);
+```
+
+<kbd>t</kbd><kbd>m</kbd>
+```javascript
+expect(mixed).toMatch(pattern);
+```
+
+<kbd>t</kbd><kbd>s</kbd><kbd>w</kbd>
+```javascript
+expect(string).toStartWith(expected);
+```
+
+<kbd>t</kbd><kbd>t</kbd>
+```javascript
+expect(fn).toThrow(error);
+```
+
+<kbd>t</kbd><kbd>t</kbd><kbd>a</kbd><kbd>e</kbd>
+```javascript
+expect(fn).toThrowAnyError();
+```
+
+<kbd>t</kbd><kbd>t</kbd><kbd>e</kbd><kbd>o</kbd><kbd>t</kbd>
+```javascript
+expect(fn).toThrowErrorOfType(string);
+```
