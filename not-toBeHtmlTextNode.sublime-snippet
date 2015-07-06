@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:element}).toBeHtmlTextNode();
+]]></content>
+  <tabTrigger>ntbhtn</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

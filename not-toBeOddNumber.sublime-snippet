@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:number}).toBeOddNumber();
+]]></content>
+  <tabTrigger>ntbon</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:fn}).toThrowAnyError();
+]]></content>
+  <tabTrigger>nttae</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

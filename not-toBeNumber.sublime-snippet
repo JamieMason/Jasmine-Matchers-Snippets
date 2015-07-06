@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:number}).toBeNumber();
+]]></content>
+  <tabTrigger>ntbn</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

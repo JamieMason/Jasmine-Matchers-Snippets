@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:mixed}).toBeNull();
+]]></content>
+  <tabTrigger>ntbn</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

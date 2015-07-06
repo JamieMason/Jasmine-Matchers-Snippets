@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:mixed}).toMatch(${2:pattern});
+]]></content>
+  <tabTrigger>ntm</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

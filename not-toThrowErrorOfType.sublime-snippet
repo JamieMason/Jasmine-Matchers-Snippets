@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:fn}).toThrowErrorOfType(${2:string});
+]]></content>
+  <tabTrigger>ntteot</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

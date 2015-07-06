@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveArrayOfSize(memberName, ${2:size});
+]]></content>
+  <tabTrigger>nthaos</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

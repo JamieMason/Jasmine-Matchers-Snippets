@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveArray(${2:memberName});
+]]></content>
+  <tabTrigger>ntha</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

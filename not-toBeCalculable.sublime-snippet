@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+expect(${1:numberOrString}).toBeCalculable();
+]]></content>
+  <tabTrigger>ntbc</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
