@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:number}).toBeCloseTo(${2:number}, ${3:decimalPlaces});
+]]></content>
+  <tabTrigger>tbct</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

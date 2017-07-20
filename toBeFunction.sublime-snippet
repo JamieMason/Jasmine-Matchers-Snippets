@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:object}).toBeFunction();
+expect(${1:fn}).toBeFunction();
 ]]></content>
   <tabTrigger>tbf</tabTrigger>
   <scope>source.js</scope>

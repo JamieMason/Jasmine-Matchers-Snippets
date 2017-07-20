@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:number}).toBeLessThan(${2:number});
+expect(${1:number}).not.toBeLessThan(${2:number});
 ]]></content>
   <tabTrigger>ntblt</tabTrigger>
   <scope>source.js</scope>

@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:fn}).not.toThrowError(${2:string});
+]]></content>
+  <tabTrigger>ntte</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

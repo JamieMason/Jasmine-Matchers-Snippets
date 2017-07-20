@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:number}).toBeNaN();
+]]></content>
+  <tabTrigger>tbnn</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:number}).not.toBeCloseTo(${2:number}, ${3:decimalPlaces});
+]]></content>
+  <tabTrigger>ntbct</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

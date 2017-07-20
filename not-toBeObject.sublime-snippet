@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:object}).toBeObject();
+expect(${1:object}).not.toBeObject();
 ]]></content>
   <tabTrigger>ntbo</tabTrigger>
   <scope>source.js</scope>

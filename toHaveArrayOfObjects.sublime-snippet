@@ -1,3 +1,4 @@
+
 <snippet>
   <content><![CDATA[
 expect(${1:object}).toHaveArrayOfObjects(${2:memberName});

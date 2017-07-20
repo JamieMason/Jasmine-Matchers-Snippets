@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:numberOrString}).toBeCalculable();
+expect(${1:mixed}).toBeCalculable();
 ]]></content>
   <tabTrigger>tbc</tabTrigger>
   <scope>source.js</scope>

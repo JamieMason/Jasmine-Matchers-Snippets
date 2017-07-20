@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:boolean}).toBeTrue();
+expect(${1:boolean}).not.toBeTrue();
 ]]></content>
   <tabTrigger>ntbt</tabTrigger>
   <scope>source.js</scope>

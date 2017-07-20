@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.nonEmptyObject();
+]]></content>
+  <tabTrigger>aneo</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

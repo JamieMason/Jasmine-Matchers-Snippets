@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.jsonString();
+]]></content>
+  <tabTrigger>ajs</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

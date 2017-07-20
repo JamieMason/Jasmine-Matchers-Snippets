@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveMember(${2:memberName});
+]]></content>
+  <tabTrigger>thm</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

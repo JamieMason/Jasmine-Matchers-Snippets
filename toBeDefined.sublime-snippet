@@ -1,3 +1,4 @@
+
 <snippet>
   <content><![CDATA[
 expect(${1:mixed}).toBeDefined();

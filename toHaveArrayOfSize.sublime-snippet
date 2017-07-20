@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:object}).toHaveArrayOfSize(memberName, ${2:size});
+expect(${1:object}).toHaveArrayOfSize(${2:memberName}, ${3:size});
 ]]></content>
   <tabTrigger>thaos</tabTrigger>
   <scope>source.js</scope>

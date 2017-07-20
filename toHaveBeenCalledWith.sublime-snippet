@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:method}).toHaveBeenCalledWith(${2:value});
+expect(${1:spy}).toHaveBeenCalledWith(${2:...arguments});
 ]]></content>
   <tabTrigger>thbcw</tabTrigger>
   <scope>source.js</scope>

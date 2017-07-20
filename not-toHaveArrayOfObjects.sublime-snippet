@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:object}).toHaveArrayOfObjects(${2:memberName});
+expect(${1:object}).not.toHaveArrayOfObjects(${2:memberName});
 ]]></content>
   <tabTrigger>nthaoo</tabTrigger>
   <scope>source.js</scope>

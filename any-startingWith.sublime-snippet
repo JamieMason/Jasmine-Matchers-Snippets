@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.startingWith(${1:string});
+]]></content>
+  <tabTrigger>asw</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

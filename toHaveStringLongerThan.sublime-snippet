@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveStringLongerThan(${2:memberName}, ${3:string});
+]]></content>
+  <tabTrigger>thslt</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

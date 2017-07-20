@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+jasmine.any(${1:Constructor});
+]]></content>
+  <tabTrigger>ja</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

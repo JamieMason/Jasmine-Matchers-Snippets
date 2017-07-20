@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:number}).not.toBeNear(${2:otherNumber}, ${3:epsilon});
+]]></content>
+  <tabTrigger>ntbn</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

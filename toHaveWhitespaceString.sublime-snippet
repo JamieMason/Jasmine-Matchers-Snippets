@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveWhitespaceString(${2:memberName});
+]]></content>
+  <tabTrigger>thws</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

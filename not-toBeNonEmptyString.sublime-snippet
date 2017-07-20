@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:string}).toBeNonEmptyString();
+expect(${1:string}).not.toBeNonEmptyString();
 ]]></content>
   <tabTrigger>ntbnes</tabTrigger>
   <scope>source.js</scope>

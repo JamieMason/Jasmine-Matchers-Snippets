@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.arrayOfNumbers();
+]]></content>
+  <tabTrigger>aaon</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:mixed}).toBeFalsy();
+expect(${1:mixed}).not.toBeFalsy();
 ]]></content>
   <tabTrigger>ntbf</tabTrigger>
   <scope>source.js</scope>

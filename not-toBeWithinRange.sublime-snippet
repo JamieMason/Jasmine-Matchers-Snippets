@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:number}).toBeWithinRange(${2:floor}, ${3:ceiling});
+expect(${1:number}).not.toBeWithinRange(${2:floor}, ${3:ceiling});
 ]]></content>
   <tabTrigger>ntbwr</tabTrigger>
   <scope>source.js</scope>

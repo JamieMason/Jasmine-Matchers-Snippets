@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:array}).toBeArray();
+expect(${1:array}).not.toBeArray();
 ]]></content>
   <tabTrigger>ntba</tabTrigger>
   <scope>source.js</scope>

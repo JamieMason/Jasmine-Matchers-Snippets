@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.evenNumber();
+]]></content>
+  <tabTrigger>aen</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

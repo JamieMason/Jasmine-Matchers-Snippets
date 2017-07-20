@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:number}).not.toBeGreaterThanOrEqualTo(${2:otherNumber});
+]]></content>
+  <tabTrigger>ntbgtoet</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

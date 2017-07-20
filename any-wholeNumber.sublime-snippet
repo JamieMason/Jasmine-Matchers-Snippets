@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.wholeNumber();
+]]></content>
+  <tabTrigger>awn</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

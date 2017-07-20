@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.regExp();
+]]></content>
+  <tabTrigger>are</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

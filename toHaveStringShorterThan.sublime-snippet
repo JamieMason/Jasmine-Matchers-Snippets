@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveStringShorterThan(${2:memberName}, ${3:string});
+]]></content>
+  <tabTrigger>thsst</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

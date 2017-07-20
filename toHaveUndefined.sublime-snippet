@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveUndefined(${2:memberName});
+]]></content>
+  <tabTrigger>thu</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveDateAfter(${2:memberName}, ${3:date});
+]]></content>
+  <tabTrigger>thda</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

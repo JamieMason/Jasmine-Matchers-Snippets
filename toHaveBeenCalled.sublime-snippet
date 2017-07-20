@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:method}).toHaveBeenCalled();
+expect(${1:spy}).toHaveBeenCalled();
 ]]></content>
   <tabTrigger>thbc</tabTrigger>
   <scope>source.js</scope>

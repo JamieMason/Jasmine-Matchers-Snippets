@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.iso8601();
+]]></content>
+  <tabTrigger>ai8601</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

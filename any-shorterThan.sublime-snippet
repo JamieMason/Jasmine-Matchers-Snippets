@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.shorterThan(${1:string});
+]]></content>
+  <tabTrigger>ast</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

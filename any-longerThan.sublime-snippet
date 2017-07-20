@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.longerThan(${1:string});
+]]></content>
+  <tabTrigger>alt</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

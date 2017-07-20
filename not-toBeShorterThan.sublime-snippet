@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:string}).toBeShorterThan(${2:other});
+expect(${1:string}).not.toBeShorterThan();
 ]]></content>
   <tabTrigger>ntbst</tabTrigger>
   <scope>source.js</scope>

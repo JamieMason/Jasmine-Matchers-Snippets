@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:string}).toBeJsonString();
+expect(${1:string}).not.toBeJsonString();
 ]]></content>
   <tabTrigger>ntbjs</tabTrigger>
   <scope>source.js</scope>

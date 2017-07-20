@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).not.toHaveNumberWithinRange(${2:memberName}, ${3:floor}, ${4:ceiling});
+]]></content>
+  <tabTrigger>nthnwr</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

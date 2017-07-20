@@ -1,7 +1,0 @@
-<snippet>
-  <content><![CDATA[
-expect(${1:date}).toBeBefore(${2:date});
-]]></content>
-  <tabTrigger>tbb</tabTrigger>
-  <scope>source.js</scope>
-</snippet>

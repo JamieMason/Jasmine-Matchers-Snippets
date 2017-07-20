@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveDateBefore(${2:memberName}, ${3:date});
+]]></content>
+  <tabTrigger>thdb</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.nonEmptyString();
+]]></content>
+  <tabTrigger>anes</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

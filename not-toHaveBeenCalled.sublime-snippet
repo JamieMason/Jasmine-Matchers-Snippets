@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:method}).not.toHaveBeenCalled();
+expect(${1:spy}).not.toHaveBeenCalled();
 ]]></content>
   <tabTrigger>nthbc</tabTrigger>
   <scope>source.js</scope>

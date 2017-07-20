@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveWholeNumber(${2:memberName});
+]]></content>
+  <tabTrigger>thwn</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

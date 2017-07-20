@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).not.toHaveJsonString(${2:memberName});
+]]></content>
+  <tabTrigger>nthjs</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

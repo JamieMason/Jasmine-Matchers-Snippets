@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.withinRange(${1:floor}, ${2:ceiling});
+]]></content>
+  <tabTrigger>awr</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

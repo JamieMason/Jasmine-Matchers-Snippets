@@ -1,7 +1,0 @@
-<snippet>
-  <content><![CDATA[
-expect(${1:element}).toBeHtmlNode();
-]]></content>
-  <tabTrigger>tbhn</tabTrigger>
-  <scope>source.js</scope>
-</snippet>

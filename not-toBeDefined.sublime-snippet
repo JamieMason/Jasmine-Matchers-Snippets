@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:mixed}).toBeDefined();
+expect(${1:mixed}).not.toBeDefined();
 ]]></content>
   <tabTrigger>ntbd</tabTrigger>
   <scope>source.js</scope>

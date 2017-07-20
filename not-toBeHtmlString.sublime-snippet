@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:string}).toBeHtmlString();
+expect(${1:string}).not.toBeHtmlString();
 ]]></content>
   <tabTrigger>ntbhs</tabTrigger>
   <scope>source.js</scope>

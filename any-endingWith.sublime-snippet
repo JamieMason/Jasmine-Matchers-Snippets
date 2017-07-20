@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.endingWith(${1:string});
+]]></content>
+  <tabTrigger>aew</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

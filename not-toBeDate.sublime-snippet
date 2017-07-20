@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:date}).toBeDate();
+expect(${1:date}).not.toBeDate();
 ]]></content>
   <tabTrigger>ntbd</tabTrigger>
   <scope>source.js</scope>

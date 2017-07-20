@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:regexp}).toBeRegExp();
+]]></content>
+  <tabTrigger>tbre</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

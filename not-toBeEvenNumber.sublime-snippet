@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:number}).toBeEvenNumber();
+expect(${1:number}).not.toBeEvenNumber();
 ]]></content>
   <tabTrigger>ntben</tabTrigger>
   <scope>source.js</scope>

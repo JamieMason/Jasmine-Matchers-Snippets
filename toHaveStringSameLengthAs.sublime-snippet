@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveStringSameLengthAs(${2:memberName}, ${3:string});
+]]></content>
+  <tabTrigger>thssla</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

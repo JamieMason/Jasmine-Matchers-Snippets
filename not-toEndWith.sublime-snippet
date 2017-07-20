@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:string}).toEndWith(${2:expected});
+expect(${1:string}).not.toEndWith(${2:substring});
 ]]></content>
   <tabTrigger>ntew</tabTrigger>
   <scope>source.js</scope>

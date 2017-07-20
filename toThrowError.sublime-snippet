@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:fn}).toThrowError(${2:string});
+]]></content>
+  <tabTrigger>tte</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

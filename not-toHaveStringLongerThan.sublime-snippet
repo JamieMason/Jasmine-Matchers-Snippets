@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).not.toHaveStringLongerThan(${2:memberName}, ${3:string});
+]]></content>
+  <tabTrigger>nthslt</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

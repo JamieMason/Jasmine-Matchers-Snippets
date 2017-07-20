@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.arrayOfBooleans();
+]]></content>
+  <tabTrigger>aaob</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

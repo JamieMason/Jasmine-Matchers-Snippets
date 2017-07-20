@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveNonEmptyObject(${2:memberName});
+]]></content>
+  <tabTrigger>thneo</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

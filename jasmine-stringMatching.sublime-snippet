@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+jasmine.stringMatching(${1:pattern});
+]]></content>
+  <tabTrigger>jsm</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

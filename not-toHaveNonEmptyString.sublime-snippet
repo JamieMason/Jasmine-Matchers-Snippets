@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).not.toHaveNonEmptyString(${2:memberName});
+]]></content>
+  <tabTrigger>nthnes</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

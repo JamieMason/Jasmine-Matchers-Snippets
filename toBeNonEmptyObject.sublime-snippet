@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toBeNonEmptyObject();
+]]></content>
+  <tabTrigger>tbneo</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

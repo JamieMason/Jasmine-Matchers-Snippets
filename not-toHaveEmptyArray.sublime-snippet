@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:object}).toHaveEmptyArray(${2:memberName});
+expect(${1:object}).not.toHaveEmptyArray(${2:memberName});
 ]]></content>
   <tabTrigger>nthea</tabTrigger>
   <scope>source.js</scope>

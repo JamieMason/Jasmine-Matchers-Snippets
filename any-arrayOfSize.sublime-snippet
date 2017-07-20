@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.arrayOfSize(${1:number});
+]]></content>
+  <tabTrigger>aaos</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

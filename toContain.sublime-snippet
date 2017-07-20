@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:array or string}).toContain(${2:member or substring});
+expect(${1:array}).toContain(${2:member});
 ]]></content>
   <tabTrigger>tc</tabTrigger>
   <scope>source.js</scope>

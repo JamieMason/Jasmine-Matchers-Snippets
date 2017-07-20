@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).not.toHaveOddNumber(${2:memberName});
+]]></content>
+  <tabTrigger>nthon</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

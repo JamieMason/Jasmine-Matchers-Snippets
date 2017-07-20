@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:spy}).toHaveBeenCalledTimes(${2:number});
+]]></content>
+  <tabTrigger>thbct</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

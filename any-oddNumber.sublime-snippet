@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.oddNumber();
+]]></content>
+  <tabTrigger>aon</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

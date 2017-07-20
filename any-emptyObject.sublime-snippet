@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.emptyObject();
+]]></content>
+  <tabTrigger>aeo</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

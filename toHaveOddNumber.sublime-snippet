@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:object}).toHaveOddNumber(${2:memberName});
+]]></content>
+  <tabTrigger>thon</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

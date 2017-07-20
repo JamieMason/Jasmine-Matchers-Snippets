@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:array}).toBeArrayOfSize(${2:size});
+expect(${1:array}).not.toBeArrayOfSize(${2:number});
 ]]></content>
   <tabTrigger>ntbaos</tabTrigger>
   <scope>source.js</scope>

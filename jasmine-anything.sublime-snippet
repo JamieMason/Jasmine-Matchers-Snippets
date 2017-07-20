@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+jasmine.anything(${1:mixed});
+]]></content>
+  <tabTrigger>ja</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

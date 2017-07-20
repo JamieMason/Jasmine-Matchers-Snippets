@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.before(${1:date});
+]]></content>
+  <tabTrigger>ab</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

@@ -1,6 +1,7 @@
+
 <snippet>
   <content><![CDATA[
-expect(${1:fn}).toThrow(${2:error});
+expect(${1:fn}).not.toThrow(${2:string});
 ]]></content>
   <tabTrigger>ntt</tabTrigger>
   <scope>source.js</scope>

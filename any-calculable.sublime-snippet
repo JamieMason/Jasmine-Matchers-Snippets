@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+any.calculable();
+]]></content>
+  <tabTrigger>ac</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
