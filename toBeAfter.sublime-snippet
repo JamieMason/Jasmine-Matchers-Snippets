@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:date}).toBeAfter(${2:otherDate});
+]]></content>
+  <tabTrigger>tba</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

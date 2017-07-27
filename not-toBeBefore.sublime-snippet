@@ -1,0 +1,8 @@
+
+<snippet>
+  <content><![CDATA[
+expect(${1:date}).not.toBeBefore(${2:otherDate});
+]]></content>
+  <tabTrigger>ntbb</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
